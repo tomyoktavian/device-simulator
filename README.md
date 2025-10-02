@@ -104,23 +104,6 @@ Beberapa website mungkin tidak bisa ditampilkan karena:
   Dibuat dengan ❤️ untuk memudahkan testing responsive design
 </div>
 
-## 📝 Changelog
-
-### Version 1.0.1
-- 🚀 Optimasi performa rendering viewport
-- 🐛 Perbaikan bug pada custom viewport resize
-- ✨ Peningkatan stabilitas history manager
-- 🎨 Perbaikan UI/UX pada toolbar controls
-- 📦 Optimasi ukuran package extension
-
-### Version 1.0.0
-- 🎉 Initial release
-- 🎯 15+ device presets (iPhone, iPad, Android)
-- 📐 Custom viewport dengan manual resize
-- 🔄 Rotate device (portrait/landscape)
-- 🔍 Zoom controls (10%-200%)
-- 💾 History manager untuk menyimpan konfigurasi
-
----
+##
 
 **Enjoy testing! 🚀**
