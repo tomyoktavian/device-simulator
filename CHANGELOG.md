@@ -1,6 +1,6 @@
 # Change Log
 
-## [1.0.1] - 2025-10-02
+## [1.0.2] - 2025-10-02
 
 ### Improved
 - 🚀 Optimasi performa rendering viewport untuk loading yang lebih cepat
