@@ -8,7 +8,7 @@
 
 Test responsive design website Anda langsung di dalam VSCode tanpa perlu membuka browser! Device Simulator memungkinkan Anda untuk melihat bagaimana website Anda tampil di berbagai perangkat mobile dan tablet dengan mudah.
 
-![Device Simulator Preview](assets/preview.gif)
+![Device Simulator Preview](https://raw.githubusercontent.com/tomyoktavian/device-simulator/main/assets/preview.gif)
 
 ## ✨ Fitur Utama
 
