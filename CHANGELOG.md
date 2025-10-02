@@ -1,6 +1,6 @@
 # Change Log
 
-## [1.0.2] - 2025-10-02
+<!-- ## [0.1.1] - 2025-10-02
 
 ### Improved
 - 🚀 Optimasi performa rendering viewport untuk loading yang lebih cepat
@@ -17,9 +17,9 @@
 ### Changed
 - 💾 History manager sekarang lebih stabil dan reliable
 - 🔄 Improved auto-refresh behavior saat ganti device
-- 📐 Better viewport dimension calculation
+- 📐 Better viewport dimension calculation -->
 
-## [1.0.0] - 2025-10-01
+## [0.1.0] - 2025-10-01
 
 ### Added
 - Initial release of Device Simulator
