@@ -1,5 +1,22 @@
 # Change Log
 
+## [0.1.2] - 2025-10-04
+
+### Fixed
+- 🪟 **Windows Compatibility**:
+  - Fixed Android Emulator tidak bisa dijalankan di Windows dengan error "emulator is not recognized"
+  - Menambahkan auto-detection path lengkap ke `emulator.exe` di Windows
+  - Mencari di lokasi: `ANDROID_HOME`, `ANDROID_SDK_ROOT`, dan path default Android SDK
+- 🍎 **Platform-Specific UI**:
+  - iOS Simulator option sekarang hanya muncul di macOS
+  - Windows dan Linux tidak lagi menampilkan opsi iOS yang tidak tersedia
+  - Platform detection di semua menu: "Open New", "Quick Device Picker" (Ctrl+M), dan "Run with Emulator"
+
+### Changed
+- 🔧 **Code Improvements**:
+  - Menambahkan method `getEmulatorCommand()` untuk platform-specific emulator path resolution
+  - TypeScript type safety untuk dynamic platform options
+
 ## [0.1.1] - 2025-10-03
 
 ### Added
