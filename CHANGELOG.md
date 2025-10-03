@@ -1,23 +1,40 @@
 # Change Log
 
-<!-- ## [0.1.1] - 2025-10-02
+## [0.1.1] - 2025-10-03
 
-### Improved
-- 🚀 Optimasi performa rendering viewport untuk loading yang lebih cepat
-- ⚡ Peningkatan kecepatan switching antar device presets
-- 🎨 Perbaikan responsivitas toolbar pada window kecil
-- 📦 Optimasi ukuran package extension (reduced by ~15%)
-
-### Fixed
-- 🐛 Perbaikan bug pada custom viewport resize di corner handles
-- 🔧 Fix memory leak pada history manager
-- ✨ Perbaikan visual glitch saat zoom di level ekstrem
-- 🎯 Stabilitas lebih baik saat multiple simulator instances
+### Added
+- 📱 **Run with Emulator** - Fitur baru untuk menjalankan URL di Android Emulator atau iOS Simulator
+  - Auto-detect ketersediaan Android SDK dan iOS Simulator
+  - Smart platform selection (otomatis pilih jika hanya 1 platform tersedia)
+  - List dan pilih emulator/simulator yang sudah berjalan
+  - Start emulator baru jika belum ada yang berjalan
+  - List dan pilih Android AVD yang tersedia untuk di-start
+  - List dan pilih iOS Simulator yang tersedia untuk di-start
+  - Auto-open URL di emulator setelah boot selesai
+  - Tombol otomatis tersembunyi jika tidak ada platform yang tersedia
+- ⌨️ **Keyboard Shortcuts**:
+  - `Ctrl+Alt+E` / `Cmd+Option+E` untuk Run with Emulator
+    - Shortcut global - bisa dijalankan dari mana pun (tidak perlu buka Device Simulator dulu)
+    - Langsung start fresh emulator tanpa URL
+    - Pilih platform dan device yang ingin dijalankan
+  - `Ctrl+M` / `Cmd+M` sekarang menampilkan quick picker:
+    - Web Device Simulator (simulator web-based)
+    - Android Emulator (langsung ke pilihan AVD)
+    - iOS Simulator (langsung ke pilihan simulator)
+- 🎯 **Toolbar Icon**: Icon mobile (📱) ditambahkan di editor toolbar (navigation group)
+  - Klik icon untuk menampilkan quick picker yang sama dengan `Ctrl+M`
+  - Posisi di samping icon split editor
+  - Akses cepat tanpa keyboard shortcut
+- 🎨 **UI Improvements**:
+  - Tombol "Run with Emulator" dengan styling konsisten seperti device selector
+  - Layout responsive dengan flex-wrap untuk layar kecil
 
 ### Changed
-- 💾 History manager sekarang lebih stabil dan reliable
-- 🔄 Improved auto-refresh behavior saat ganti device
-- 📐 Better viewport dimension calculation -->
+- 🏗️ **Code Refactoring**:
+  - Separation of concerns antara UI dan business logic
+- 📐 **Layout Optimization**:
+  - Better spacing dan alignment untuk toolbar
+  - Responsive breakpoints untuk berbagai ukuran layar
 
 ## [0.1.0] - 2025-10-01
 
